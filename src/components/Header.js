@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import { useColorMode } from '@chakra-ui/color-mode'
-import { Box, Flex, Stack, HStack, useMediaQuery, Text, Heading, Link, Tag, Divider, Badge, Code, Button } from '@chakra-ui/react';
-import {Image} from '@chakra-ui/image'
-import profPic from '../img/C__1_-removebg-preview.png'
+import { Box, Stack, useMediaQuery, Text, Heading, Link,  Divider, Code, Button } from '@chakra-ui/react';
 import resume from '../pdfs/resume2022.pdf'
 function Header() {
   const { colorMode } = useColorMode();
