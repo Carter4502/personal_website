@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/personal_website/static/js/main.166c5efb.js",
-    "static/media/resume2022.pdf": "/personal_website/static/media/resume2022.f649f375406403c943ea.pdf",
-    "index.html": "/personal_website/index.html",
-    "main.166c5efb.js.map": "/personal_website/static/js/main.166c5efb.js.map"
+    "main.js": "/static/js/main.bad78028.js",
+    "static/media/resume2022.pdf": "/static/media/resume2022.f649f375406403c943ea.pdf",
+    "index.html": "/index.html",
+    "main.bad78028.js.map": "/static/js/main.bad78028.js.map"
   },
   "entrypoints": [
-    "static/js/main.166c5efb.js"
+    "static/js/main.bad78028.js"
   ]
 }
