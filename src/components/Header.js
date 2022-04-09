@@ -1,12 +1,13 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { useColorMode } from '@chakra-ui/color-mode'
-import { Box, Stack, useMediaQuery, Text, Heading, Link,  Divider, Code, Button } from '@chakra-ui/react';
+import { Box, Stack, useMediaQuery, Text, Heading, Link,  Divider, Code } from '@chakra-ui/react';
 import resume from '../pdfs/resume2022.pdf'
 function Header() {
   const { colorMode } = useColorMode();
   const isDark = colorMode === "dark";
   const [ isBigScreen ] = useMediaQuery("(min-width:600px)");
   return (
+    
     <Stack>
         
         <Box mt={isBigScreen ? "0" : "5"} mb={isBigScreen ? "10" : "15"}>
